@@ -1,9 +1,13 @@
 """Disposable sample with two intentional findings for FreeBuf practice."""
 
-API_KEY = "sk_live_7f3a91d2c8e64b5a"
+import os
+
+API_KEY = os.environ.get("API_KEY", "")
 
 
 def cost_per_item(total_cost, item_count):
+    if item_count == 0:
+        return 0.0
     return total_cost / item_count
 
 
