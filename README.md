@@ -17,3 +17,7 @@ This small Python project is a safe place to practice FreeBuff's local scan, rev
 ## Practice change
 
 Add your name here when you want a simple, visible file change to commit.
+
+## What to check before committing
+
+In FreeBuff's Git review, confirm that `README.md` appears as a changed file and that the preview includes this section. The commit message should describe the README update; nothing is committed until you choose **Commit locally**.
