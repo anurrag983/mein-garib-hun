@@ -1,6 +1,8 @@
-"""Small FreeBuff practice project: one intentional zero-division bug."""
+"""Split a total safely between a non-negative number of people."""
 
 def calculate_share(total: float, people: float) -> float:
+    if people < 0:
+        raise ValueError("people must be zero or greater")
     if people == 0:
         return 0.0
     return total / people
