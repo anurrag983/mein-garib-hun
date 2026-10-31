@@ -8,3 +8,10 @@
   - `README.md`
   - `app.py`
   - `CHANGELOG.md`
+
+## Commit 2 — fix(auth): validate the login token
+
+- Date: 2026-10-31 08:31 IST
+- Files changed: 2
+  - `README.md`
+  - `CHANGELOG.md`
